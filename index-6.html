@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>เว็บไซต์แนะนำตัวเอง | ทรงพล งามประเสริฐ</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Tahoma","Noto Sans Thai",sans-serif;background:#f4fbf5;color:#243126;line-height:1.8}
+header{min-height:82vh;background:linear-gradient(135deg,#064d16,#128a32,#66bb6a);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;padding:50px 20px;position:relative;overflow:hidden}
+header:before,header:after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.09)}
+header:before{width:330px;height:330px;top:-130px;left:-100px}
+header:after{width:420px;height:420px;right:-170px;bottom:-180px}
+.hero{position:relative;z-index:1;max-width:800px}
+.avatar{width:145px;height:145px;border-radius:50%;background:#fff;color:#087f23;margin:auto;display:flex;align-items:center;justify-content:center;font-size:70px;box-shadow:0 12px 35px rgba(0,0,0,.25);border:6px solid rgba(255,255,255,.65)}
+.hero h1{font-size:clamp(30px,6vw,52px);margin:20px 0 5px}
+.hero p{font-size:clamp(17px,3vw,23px)}
+.badge{display:inline-block;margin-top:18px;padding:7px 18px;border:1px solid rgba(255,255,255,.6);border-radius:30px;background:rgba(255,255,255,.12)}
+nav{position:sticky;top:0;z-index:20;background:#063f13;box-shadow:0 3px 12px rgba(0,0,0,.15);text-align:center;padding:12px 8px}
+nav a{color:#fff;text-decoration:none;font-weight:bold;margin:0 12px;font-size:15px}
+nav a:hover{color:#a5d6a7}
+section{max-width:1050px;margin:auto;padding:65px 20px 10px}
+.title{text-align:center;color:#087f23;font-size:32px;margin-bottom:30px}
+.subtitle{text-align:center;color:#607064;margin-top:-20px;margin-bottom:25px}
+.card{background:#fff;border-radius:22px;padding:30px;box-shadow:0 8px 28px rgba(31,74,40,.10);border:1px solid #dcebdd}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.info{background:#f0f8f1;padding:20px;border-radius:16px;border-left:5px solid #43a047}
+.info h3{color:#087f23;margin-bottom:5px}
+.hobbies{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:22px}
+.hobby{background:#fff;border-radius:22px;padding:30px;text-align:center;box-shadow:0 8px 28px rgba(31,74,40,.10);transition:.25s;border:1px solid #dcebdd}
+.hobby:hover{transform:translateY(-7px)}
+.icon{font-size:58px}
+.hobby h3{color:#087f23;margin:8px 0}
+.dream{background:linear-gradient(135deg,#e8f5e9,#c8e6c9);text-align:center;border-radius:24px;padding:38px;border:1px solid #b8dcb9}
+.dream h3{font-size:28px;color:#087f23;margin-bottom:10px}
+.quote{text-align:center;font-size:22px;color:#34523b;font-weight:bold}
+footer{margin-top:70px;background:#063f13;color:#fff;text-align:center;padding:30px 20px}
+.small{font-size:14px;opacity:.85}
+@media(max-width:600px){nav a{margin:0 5px;font-size:13px}section{padding-top:45px}.card{padding:22px}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="hero">
+    <div class="avatar">👨‍🎓</div>
+    <h1>เด็กชายทรงพล งามประเสริฐ</h1>
+    <p>เว็บไซต์แนะนำตัวเอง</p>
+    <span class="badge">นักเรียนชั้นมัธยมศึกษาปีที่ 3</span>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">ประวัติ</a>
+  <a href="#education">การศึกษา</a>
+  <a href="#hobby">ความสนใจ</a>
+  <a href="#dream">ความฝัน</a>
+</nav>
+
+<section id="about">
+  <h2 class="title">👤 ประวัติส่วนตัว</h2>
+  <p class="subtitle">ข้อมูลแนะนำตัวของผู้จัดทำเว็บไซต์</p>
+  <div class="card">
+    <div class="grid">
+      <div class="info"><h3>ชื่อ-นามสกุล</h3><p>เด็กชายทรงพล งามประเสริฐ</p></div>
+      <div class="info"><h3>วันเกิด</h3><p>10 ตุลาคม พ.ศ. 2554</p></div>
+      <div class="info"><h3>จังหวัด</h3><p>เพชรบุรี</p></div>
+      <div class="info"><h3>ระดับชั้น</h3><p>มัธยมศึกษาปีที่ 3</p></div>
+      <div class="info"><h3>ความชื่นชอบ</h3><p>ชอบเลี้ยงแมว และชอบสีเขียว</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="title">🏫 ประวัติการศึกษา</h2>
+  <div class="card">
+    <div class="grid">
+      <div class="info"><h3>สถานศึกษา</h3><p>โรงเรียนสุวรรณรังสฤษฏ์วิทยาลัย</p></div>
+      <div class="info"><h3>จังหวัด</h3><p>เพชรบุรี</p></div>
+      <div class="info"><h3>ชั้นเรียนปัจจุบัน</h3><p>มัธยมศึกษาปีที่ 3</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="hobby">
+  <h2 class="title">🔧 งานอดิเรกและความสนใจ</h2>
+  <div class="hobbies">
+    <div class="hobby">
+      <div class="icon">🏍️</div>
+      <h3>ชอบแต่งรถ</h3>
+      <p>สนใจการแต่งรถ การออกแบบ และการปรับแต่งรถให้มีสไตล์ในแบบที่ตนเองชอบ</p>
+    </div>
+    <div class="hobby">
+      <div class="icon">🔨</div>
+      <h3>ประดิษฐ์สิ่งของ</h3>
+      <p>ชอบคิดค้นและลงมือประดิษฐ์สิ่งของ เพื่อฝึกความคิดสร้างสรรค์และทักษะการทำงาน</p>
+    </div>
+    <div class="hobby">
+      <div class="icon">🐱</div>
+      <h3>ชอบเลี้ยงแมว</h3>
+      <p>ชอบเลี้ยงและดูแลแมว เพราะเป็นสัตว์ที่น่ารักและช่วยสร้างความสุขในเวลาว่าง</p>
+    </div>
+    <div class="hobby">
+      <div class="icon">💚</div>
+      <h3>ชอบสีเขียว</h3>
+      <p>สีเขียวเป็นสีที่ชอบ เพราะให้ความรู้สึกสดใส สบายตา และเป็นธรรมชาติ</p>
+    </div>
+  </div>
+</section>
+
+<section id="dream">
+  <h2 class="title">🏁 ความฝันในอนาคต</h2>
+  <div class="dream">
+    <h3>อยากมีร้านแต่งรถเป็นของตัวเอง</h3>
+    <p>ผมมีความฝันอยากเปิดร้านแต่งรถเป็นของตัวเองในอนาคต และอยากนำความรู้ ความสามารถ และความคิดสร้างสรรค์มาพัฒนาร้านให้ประสบความสำเร็จ</p>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <p class="quote">“ความพยายามในวันนี้ คือความสำเร็จในวันข้างหน้า”</p>
+  </div>
+</section>
+
+<footer>
+  <p><strong>เว็บไซต์แนะนำตัวเอง</strong></p>
+  <p>จัดทำโดย เด็กชายทรงพล งามประเสริฐ</p>
+  <p>ชั้นมัธยมศึกษาปีที่ 3</p>
+  <p class="small">โรงเรียนสุวรรณรังสฤษฏ์วิทยาลัย จังหวัดเพชรบุรี</p>
+</footer>
+
+</body>
+</html>
